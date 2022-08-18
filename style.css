@@ -44,7 +44,7 @@
     margin-top:0.5rem;
     background-color: #000000;
     width:69rem;
-    height:100rem;
+    height:105rem;
   }
   .black{
     height:30rem;
@@ -54,7 +54,7 @@
   .column2{
     margin-top:0.5rem;
     width:66rem;
-    height:100rem;
+    height:105rem;
     background-color: #4dc34d;
    
    }
@@ -239,6 +239,24 @@
     color:white;
     padding-left:22rem;
    }
-  
-  
+   .box{
+    width:5rem;
+    height:5rem;
+  }
+   .token{
+    margin-left:25rem;
+   }
+  .tax{
+   flex:content;
+  }
+  .left{
+    color:rgb(13, 184, 39);
+    margin-left:10rem;
+  }
+  .p{
+    color:white;
+  }
+  .l{
+   float: left;
+  }
   
