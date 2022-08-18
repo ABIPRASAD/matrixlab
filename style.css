@@ -1,14 +1,13 @@
 *{
-  margin:0px;
-  padding:0px;
+  margin:0rem;
+  padding:0rem;
   box-sizing: border-box;
 }
 :root {
-  --base-shade-1: #b9daf0;
   --white-shade-1: #ffffff;
   --white-shade-2: #d7e1f3;
   --black-shade-1: #232323;
-  --black-shade-2: #676a8b;
+  
   --grad-color-1: 0, 180, 250;
   --grad-color-2: 21, 120, 255;
 
@@ -24,13 +23,6 @@
 }
 
   /*------ Base Styles ------*/
-  *,
-  *:before,
-  *:after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
   *:not(i) {
     font-family: "Poppins", sans-serif;
   }
@@ -63,18 +55,14 @@
     margin-top:0.5rem;
     width:66rem;
     height:100rem;
-    background-color: #4ac24a;
+    background-color: #4dc34d;
    
    }
-   #bimg{
-
-   }
-  
   #comming{
     width:25rem;
     height:10rem;
-    margin-left:7rem;
-    margin-top:4rem;
+    margin-left:2rem;
+    margin-top:1rem;
   }
   
   .section-desc {
@@ -96,21 +84,21 @@
     line-height: 1.8;
     font-weight: 400;
   }
-  .btn {
-    background-color: transparent;
-    padding: 1rem 2rem;
+  .btn{
+    background-color:#4dc34d;;
+    padding: 1rem 4rem;
     border-radius: var(--border-radius-2);
     border: none;
-    margin: 2rem 0;
+    margin:0.5rem 0;
+    color:white;
+    margin-left:24rem;
+    
   }
-  .primary-btn {
-    background-color: var(--base-shade-1);
-    color: var(--white-shade-1);
+  #chart{
+    padding-left:5rem;
+   padding-right:5rem;
   }
-  .secondary-btn {
-    border: 0.3rem solid var(--base-shade-1);
-    color: var(--base-shade-1);
-  }
+ 
   
   /*------ Header ------*/
   header {
@@ -168,7 +156,6 @@
   .sticky nav ul a:hover {
     color:var(--base-shade-1);
   }
-  /*------ Section: Hero ------*/
  
   /*------ Section: Features ------*/
   .features .row {
@@ -241,6 +228,17 @@
   h1{
     text-align: center;
   }
+  h3{
+   
+    font-size:1.4rem;
+    padding-right:40rem;
+    text-align: center;
+   }
+   h2{
+    text-align: center;
+    color:white;
+    padding-left:22rem;
+   }
   
   
   
