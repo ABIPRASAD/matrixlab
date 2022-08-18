@@ -5,48 +5,16 @@
   .row {
     flex-direction: column;
   }
-  section,
-  footer {
+  section {
     padding: 7.5rem 5rem;
   }
   header {
     padding: 2.2rem 5rem;
   }
-  section.hero {
-    grid-template-columns: 1fr;
-    background: linear-gradient(
-      45deg,
-      rgb(var(--grad-color-1)),
-      rgb(var(--grad-color-2))
-    );
-  }
-  #header-shape {
-    display: none;
-  }
-  .hero-img {
-    grid-row: 1;
-  }
+ 
   nav ul a,
   nav a#logo {
     color: var(--white-shade-1);
-  }
-  .hero-content h1,
-  .hero-content p {
-    text-align: center;
-  }
-  .hero-content h1 {
-    color: var(--white-shade-1);
-  }
-  .hero-content p {
-    color: var(--white-shade-2);
-  }
-  .hero-content .primary-btn {
-    background-color: var(--white-shade-1);
-    color: var(--base-shade-1);
-  }
-  .hero-content .secondary-btn {
-    color: var(--white-shade-1);
-    border-color: var(--white-shade-1);
   }
   .btn-container {
     justify-content: center;
@@ -99,31 +67,24 @@
   .sticky nav ul a {
     color: var(--white-shade-1);
   }
-  nav ul a:hover {
-    color: var(--base-shade-1);
-  }
-  #scroll-top {
-    height: 6rem;
-    width: 6rem;
-  }
 }
 @media only screen and (max-width: 575px) {
   html {
     font-size: 46.87%;
+    text-align: center;
   }
-  header {
-    padding: 2rem 3rem;
-  }
-  section,
-  footer {
-    padding: 7.5rem 3rem;
-  }
-  .features .column {
-    padding: 4rem 2rem;
-  }
+
   nav ul {
     top: 65.18px;
     height: calc(100vh - 65.18px);
   }
 }
+
+@media only screen and (max-width:320px) {
+   div{
+    width:100%;
+    
+   }
+}
+
   
